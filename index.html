@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="look.css">
+    <script defer src="key.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="/submit" method="post">          
+            <input type="text" id="key" name="keycombo" placeholder="key combination:alt+t" readonly>
+            <input type="text" id="indexnum" name="number" placeholder="pick a number">
+            <input type="text" id="color" name="colorpicker" placeholder="pick a color">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container2">
+        <ol>
+            <li>Change background color</li>
+            <input type="text" class="displaykey" name="keycombo" placeholder="key combination:alt+t" readonly>
+           
+            <li>Change text color</li>
+            <input type="text" class="displaykey" name="keycombo" placeholder="key combination:alt+t" readonly>
+          
+            <li>Change container color</li>
+            <input type="text" class="displaykey" name="keycombo" placeholder="key combination:alt+t" readonly>
+        </ol>
+    </div>
+</body>
+</html>

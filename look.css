@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    max-width: 500px;
+    min-width: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.container2 {
+    width: 50%;
+    max-width: 500px;
+    min-width: 250px;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content:center;
+    align-items:last baseline;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left:30px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+#key {
+    border: none;
+    border-radius: 20px;
+    padding: 18px;
+    width: 100%;
+}
+
+#indexnum{
+    border: none;
+    border-radius: 20px;
+    padding: 18px;
+    width: 100%;
+}
+
+#color{
+    border: none;
+    border-radius: 20px;
+    padding: 18px;
+    width: 100%;  
+}
+
+.displaykey{
+   border: none;
+    border-radius: 20px;
+    padding: 18px;
+    width: 100%;   
+}
+
+li{
+    color:white;
+    font-size: 20px;
+    padding:5px;
+}
+button {
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 3px 3px 2px rgb(212, 212, 212);
+    width: 50%;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .container,
+    .container2 {
+        width: 90%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    ol {
+        padding-left: 20px; /* ensures list numbers are not clipped */
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    #key,
+    #indexnum,
+    #color,
+    .displaykey,
+    button {
+        font-size: 16px;
+        padding: 14px;
+    }
+}
