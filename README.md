@@ -1,0 +1,1 @@
+# ShortcutColorSwitcher
