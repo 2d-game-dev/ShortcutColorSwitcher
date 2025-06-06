@@ -111,7 +111,7 @@ button:hover {
     }
 
     ol {
-        padding-left: 20px; /* ensures list numbers are not clipped */
+        padding-left: 20px; 
     }
 
     li {
