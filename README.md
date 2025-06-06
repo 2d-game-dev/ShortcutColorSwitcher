@@ -22,3 +22,7 @@ Type any valid color (name like red or hex like #ff0000)
 Click Submit
 
 Try pressing the key combo you entered — and watch the color change!
+
+Website link:
+
+https://2d-game-dev.github.io/ShortcutColorSwitcher/
